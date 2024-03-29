@@ -1,0 +1,33 @@
+n1 = int(input("Введите первое число: "))
+n2 = int(input("Введите второе число: "))
+
+print("1.Прибавить")
+print("2.Отнять")
+print("3.Умножить")
+print("4.Разделить")
+print("5.Возвести в степень")
+
+oper: int = int(input("Выберите тип исчисления:"))
+
+if oper == 1:
+    print("Ответ: ", n1 + n2)
+
+if oper == 2:
+    print("Ответ: ", n1 - n2)
+
+if oper == 3:
+    print("Ответ: ", n1 * n2)
+
+if oper == 4:
+    print("Ответ:", n1 / n2)
+
+if oper == 5:
+    print("Ответ: ", n1 ** n2)
+
+    oper: int = int(input("пон? 1.да 2.нет : "))
+    if oper == 1:
+        print("молодец")
+    if oper == 2:
+        print("да ты дурак тупой патамушта, тебе ответ дают, а ты понять не можешь kj[ negjq blb jnc.lf (eto poslanne)")
+        while True:
+            ...
